@@ -14,7 +14,7 @@ let package = Package(
 //        .package(url: "https://url/of/another/package/named/Utility", from: "1.0.0"),
     ],
     targets: [
-        .target(name: "GLTFSceneKit", dependencies: ["GLTFSceneKit"]),
+        .target(name: "GLTFSceneKit", dependencies: ["GLTFSceneKit"], path: "Source"),
 //        .testTarget(name: "MyLibraryTests", dependencies: ["MyLibrary"]),
     ]
 )
